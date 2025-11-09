@@ -8,11 +8,11 @@ public class Animal{
 		this.sound = sound;
 	}
 
-	public void display(){
-		System.out.println("Name: "+name);
-		System.out.println("Sound: "+sound);
-		System.out.println("Breeding: "+breeding);
-	}
+	// public void display(){
+	// 	System.out.println("Name: "+name);
+	// 	System.out.println("Sound: "+sound);
+	// 	System.out.println("Breeding: "+breeding);
+	// }
 
 	public String breedingSystem(){
 		return name + " has a breeding system";
